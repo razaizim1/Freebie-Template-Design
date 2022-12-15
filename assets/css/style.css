@@ -1,0 +1,905 @@
+/*  Template Name: Freebie
+    Template URL: https://github.com/razaizim1;
+    Author:Razai Zim
+*/
+
+/* Table of content
+1. Header area
+2. Sponsor Area
+3. Feature Area
+4. Jackpots Area
+5. Integration Area
+6. App Function Area
+7. Ultimate Feature Area
+8. Pricing Area
+9. Client Area
+10. FAQ Area
+11. Footer Area
+*/
+
+:root {
+    --color1: #2500f9;
+    --color2: #fcae61;
+    --color3: #242f51;
+    --color4: #616368;
+    --color5: #f55767;
+    --color6: #2563ff;
+    --color7: #40975f;
+    --color8: #ffffff;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1 {
+    color: var(--color3);
+}
+
+h2 {
+    color: var(--color3);
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+p {
+    color: var(--color4);
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.section-padding {
+    padding-top: 10rem;
+}
+
+/**************************************/
+/************ Header Area ************/
+/************************************/
+
+.header-section {
+    background: url(../images/banner-background.png) no-repeat scroll center center/ contain;
+    padding-bottom: 12rem;
+    background-size: 110%;
+}
+
+.header-banner {
+    padding-top: 5rem;
+}
+
+.header-top {
+    display: flex;
+    max-width: 82%;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 5rem;
+    align-items: center;
+}
+
+.header-top h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.logo h2 {
+    color: var(--color2);
+}
+
+.logo span {
+    color: var(--color3);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.banner-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.primary-btn {
+    padding: 1.5rem 4rem;
+    background-color: var(--color1);
+    color: var(--color8);
+    border-radius: 3rem;
+    font-weight: 600;
+    display: inline-block;
+    transition: .5s;
+}
+
+.primary-btn:hover {
+    background-color: var(--color3);
+    color: var(--color2);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    color: var(--color3);
+    margin-right: 4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon i {
+    font-size: 6rem;
+    margin-left: 5rem;
+    color: var(--color2);
+}
+
+.menu ul li a:hover,
+.menu ul li.active a {
+    color: var(--color2);
+}
+
+.choice-app {
+    width: 320px;
+    background-color: #e2eaed;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.banner-icon {
+    font-size: 2rem;
+    color: var(--color8);
+    background-color: var(--color2);
+    border-radius: 5rem;
+    padding: 0;
+    border: .5rem solid var(--color2);
+    margin-right: 1rem;
+}
+
+.banner-content h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    color: var(--color3);
+    margin: 1rem 0 2rem 0;
+    line-height: 7.5rem;
+    width: 550px;
+    text-align: left;
+}
+
+.banner-content p {
+    width: 485px;
+    font-size: 1.7rem;
+}
+
+.buttons {
+    margin-top: 4rem;
+}
+
+.secondary-btn {
+    font-size: 1.6rem;
+    color: var(--color1);
+    font-weight: 500;
+    transition: .5s;
+
+}
+
+.secondary-btn:hover {
+    color: var(--color2);
+}
+
+.banner-btn {
+    margin-right: 2rem;
+}
+
+/**************************************/
+/************ Sponsor Area ***********/
+/************************************/
+.sponsor-area {
+    padding-bottom: 10rem;
+}
+
+.sponsor-content {
+    text-align: center;
+}
+
+.sponsor-content p {
+    font-size: 1.8rem;
+    color: var(--color3);
+    margin-bottom: 4rem;
+}
+
+/**************************************/
+/************ Feature Area ***********/
+/************************************/
+
+.feature-area {
+    display: flex;
+    align-items: center;
+}
+
+.feature-img {
+    margin-left: -10rem;
+    padding-right: 5rem;
+}
+
+.feature-content h2 {
+    font-weight: 600;
+    width: 300px;
+}
+
+.feature-content .feature-text {
+    width: 450px;
+    font-size: 1.6rem;
+    margin: 1rem 0 7rem 0;
+}
+
+.single-feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.single-feature .icon {
+    height: 7rem;
+    width: 7rem;
+    margin-right: 3rem;
+}
+
+.single-feature .content h5 {
+    font-size: 2rem;
+    color: var(--color5);
+    margin-bottom: 1rem;
+}
+
+.single-feature:nth-child(2) .content h5 {
+    color: var(--color6);
+}
+
+.single-feature:nth-child(3) .content h5 {
+    color: var(--color7);
+}
+
+.single-feature .content p {
+    width: 250px;
+}
+
+/**************************************/
+/************ Jackpots Area **********/
+/************************************/
+.jackpot-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 12rem;
+}
+
+.jackpot-top::after {
+    content: '';
+    background: #b9b9b8;
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.jackpot-top h2 {
+    width: 450px;
+}
+
+.jackpot-top p {
+    width: 490px;
+    font-size: 1.7rem;
+}
+
+.jackpot img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.jackpots-features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jackpot h5 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+}
+
+.jackpot p {
+    width: 280px;
+    margin: auto;
+}
+
+.jackpot:nth-child(1) h5 {
+    color: var(--color5);
+}
+
+.jackpot:nth-child(2) h5 {
+    color: var(--color6);
+}
+
+.jackpot:nth-child(3) h5 {
+    color: var(--color7);
+}
+
+/**************************************/
+/************ Integration Area *******/
+/************************************/
+
+.integration-section {
+    padding: 10rem 0;
+}
+
+.integration-area {
+    display: flex;
+    align-items: center;
+}
+
+.integration-img {
+    margin-right: 12rem;
+    margin-left: -8rem;
+}
+
+.integration-content h2 {
+    width: 350px;
+}
+
+.integration-content p {
+    width: 400px;
+    margin: 2.5rem 0 3rem 0;
+}
+
+/**************************************/
+/************ Function Area **********/
+/************************************/
+.function-section {
+    text-align: center;
+    position: relative;
+    padding-top: 10rem;
+}
+
+.function-heading h2 {
+    width: 410px;
+    margin: auto;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+}
+
+.function-heading p {
+    width: 650px;
+    margin: auto;
+    margin-bottom: 9rem;
+}
+
+.functions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.functions img {
+    height: 7rem;
+    width: 7rem;
+    margin-bottom: 2rem;
+}
+
+.single-function h5 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color3);
+    margin-bottom: 1rem;
+}
+
+.single-function p {
+    width: 270px;
+    margin: auto;
+    font-size: 1.6rem;
+    margin-bottom: 6rem;
+}
+
+/**************************************/
+/******* Ultimate Functions Area *****/
+/************************************/
+
+.ultimate-feature-section {
+    background: url(../images/ultimate-feature.png) no-repeat scroll center right / contain;
+    background-size: 48%;
+}
+
+.ultimate-feature-area {
+    display: flex;
+    align-items: center;
+}
+
+.ultimate-function-img {
+    display: none;
+}
+
+.ultimate-functions {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+.ultimate-functions .single-function p {
+    margin: 0;
+}
+
+.ultimate-feature-heading h2 {
+    width: 330px;
+    margin-bottom: 2rem;
+}
+
+.ultimate-feature-heading p {
+    width: 400px;
+    margin-bottom: 6rem;
+}
+
+.ultimate-feature-btn {
+    padding: 1.3rem 5rem;
+}
+
+/**************************************/
+/************ Pricing Area ***********/
+/************************************/
+
+.pricing-table-section {
+    padding: 10rem 0;
+}
+
+.pricing-table-area {
+    text-align: center;
+}
+
+.pricing-table-heading h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    width: 580px;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.pricing-table-heading .pricing-text {
+    width: 640px;
+    margin: auto;
+    margin-bottom: 7rem;
+}
+
+.pricing-table-btn {
+    border: 2px solid #ebebeb;
+    width: 285px;
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.pricing-table-btn a {
+    color: black;
+}
+
+.pricing-table-btn a {
+    z-index: 2;
+}
+
+.pricing-table-btn ul {
+    list-style: none;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-table-btn ul li a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--color8);
+}
+
+
+.pricing-table-btn ul .annual a {
+    color: var(--color4);
+}
+
+.pricing-table-btn ul .annual a:hover {
+    color: var(--color2);
+}
+
+.pricing-table-btn ul li::after {
+    content: '';
+    background-color: var(--color1);
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    border-radius: 5rem;
+    z-index: -1;
+    transition: .5s;
+}
+
+.table {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3.837px 54.866px 62px 0px rgba(144, 163, 177, 0.18);
+    border-radius: 1rem;
+}
+
+.table-body {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    width: 330px;
+    text-align: center;
+    margin: 0 5rem;
+}
+
+.table-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.table-heading {
+    background: #f7f9fb;
+    padding-top: 6rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.table-heading h2 {
+    font-size: 6rem;
+    color: var(--color3);
+}
+
+.table-heading-text {
+    padding-bottom: 4rem;
+}
+
+.table-heading h2 span {
+    font-size: 1.8rem;
+    color: var(--color4);
+    font-weight: 400;
+}
+
+.trail {
+    margin: 2rem 0;
+}
+
+.trail a {
+    font-size: 1.6rem;
+    color: var(--color1);
+}
+
+.trail a:hover {
+    color: var(--color2);
+}
+
+.table .trial {
+    margin-bottom: 5rem;
+}
+
+.pricing-list {
+    margin-top: 4rem;
+}
+
+.pricing-list ul li {
+    color: var(--color4);
+    padding-bottom: 2.5rem;
+    font-size: 1.6rem;
+}
+
+/**************************************/
+/************ client Area ************/
+/************************************/
+
+.client-section {
+    position: relative;
+    padding-top: 10rem;
+}
+
+.client-section::after,
+.function-section::after,
+.download-section::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #e5e6e5;
+}
+
+.client-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    align-items: center;
+}
+
+.client-area-img {
+    width: 150%;
+    margin-left: -20rem;
+}
+
+.client-area-content h2 {
+    width: 480px;
+    margin-bottom: 2rem;
+    line-height: 4.5rem;
+}
+
+.client-area-content .client-text {
+    width: 580px;
+    margin-bottom: 4rem;
+}
+
+.client-area-content .stars {
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.client-area-content h5 {
+    color: var(--color3);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.client-area-content .client-area-descriptions {
+    width: 580px;
+    margin-bottom: 6rem;
+}
+
+.ceo-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ceo-content {
+    display: flex;
+    align-items: center;
+}
+
+.ceo-img {
+    margin-right: 2.5rem;
+}
+
+.ceo-contact h6 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+
+.ceo-contact img {
+    height: 9rem;
+    width: 9rem;
+}
+
+.arrows .bx-right-arrow-alt {
+    background-color: #eff3f8;
+    font-size: 3rem;
+    border-radius: 50px;
+    padding: 1rem;
+    color: var(--color1);
+    margin-left: 2rem;
+}
+
+.arrows .bx-left-arrow-alt {
+    border: 3px solid #eff3f8;
+    font-size: 3rem;
+    border-radius: 50px;
+    padding: .8rem;
+    color: #eff3f8;
+}
+
+.arrows {
+    position: relative;
+}
+
+.arrows::after {
+    content: '';
+    background: #eff3f8;
+    top: 25%;
+    left: 50%;
+    height: 50%;
+    width: 2px;
+    position: absolute;
+}
+
+/**************************************/
+/************** FAQ Area *************/
+/************************************/
+
+.faq-section {
+    padding: 10rem 0;
+}
+
+.faq-area {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+
+.faq-area h5 {
+    color: var(--color3);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.faq-heading {
+    text-align: center;
+}
+
+.faq-heading h2 {
+    font-size: 4rem;
+}
+
+.faq-heading p {
+    margin: 2rem auto 5rem auto;
+    width: 640px;
+}
+
+.faq-content-heading {
+    background: #f5f7fa;
+    padding: 4rem;
+}
+
+.faq-content ul li h5,
+.faq-content-text {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+.faq-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.faq-content ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f7fa;
+    margin: 1rem 0;
+    padding: 1rem 4rem;
+}
+
+.faq-content .bx-plus {
+    font-size: 3rem;
+    color: var(--color3);
+}
+
+/**************************************/
+/************ Download Area **********/
+/************************************/
+
+.download-section {
+    position: relative;
+    padding: 10rem 0;
+}
+
+.download-area {
+    display: flex;
+    align-items: center;
+}
+
+.download-content h2 {
+    font-size: 4.8rem;
+    margin-bottom: 1rem;
+}
+
+.download-content p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.download-content img {
+    height: 5rem;
+    width: 185px;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.download-img img {
+    width: 150%;
+    margin-left: -9rem;
+    margin-bottom: -10rem;
+}
+
+/**************************************/
+/************ Footer Area ************/
+/************************************/
+
+.footer-section {
+    background: #09142e;
+    margin-top: -5.4rem;
+    overflow: hidden;
+}
+
+.footer-area p {
+    color: var(--color4);
+    font-size: 1.4rem;
+    margin: 5rem 0 2rem 0;
+}
+
+.footer-logo h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.footer-logo h2 span {
+    color: var(--color8);
+}
+
+.icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-area {
+    text-align: center;
+}
+
+.footer-menu ul {
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.footer-menu ul li a {
+    color: var(--color8);
+}
+
+.icons ul li i {
+    color: #273043;
+    font-size: 4rem;
+    margin-left: 1rem;
+}
+
+.icons ul li i:hover {
+    color: var(--color8);
+}

@@ -1,0 +1,386 @@
+@media all and (max-width:1140px) {
+
+    .menu-icon {
+        display: block;
+    }
+
+    .section-padding {
+        padding: 5rem 0;
+    }
+
+    .banner-content h1 {
+        font-size: 5rem;
+        font-weight: 600;
+    }
+
+    .header-section {
+        background-size: 160%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .jackpot-top::after {
+        width: 1px;
+        left: 48%;
+    }
+
+    .jackpot-top h2 {
+        width: 428px;
+    }
+
+    .jackpot-top p {
+        width: 434px;
+    }
+
+    .integration-img {
+        margin-left: -4rem;
+    }
+
+    .ultimate-feature-section {
+        background-size: 39%;
+    }
+
+    .client-area-img {
+        width: 135%;
+        margin-left: -6rem;
+    }
+
+    .faq-content ul li {
+        padding: .5rem 4rem;
+    }
+
+    .faq-content ul li h5,
+    .faq-content-text {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .download-section {
+        padding: 10rem 0px;
+    }
+
+    .download-content h2 {
+        font-size: 3.8rem;
+    }
+
+    .download-img img {
+        width: 120%;
+        margin-left: -7rem;
+        margin-bottom: 0rem;
+    }
+
+    .footer-menu {
+        display: block;
+    }
+}
+
+@media all and (max-width:991px) {
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .header-top {
+        max-width: 90%;
+    }
+
+    .banner-content h1 {
+        font-size: 4.5rem;
+        width: 100%;
+    }
+
+    .banner-content p {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .feature-area {
+        flex-direction: column;
+    }
+
+    .feature-content h2 {
+        width: 100%;
+    }
+
+    .feature-content .feature-text,
+    .single-feature .content p,
+    .jackpot-top h2,
+    .jackpot-top p,
+    .jackpot p,
+    .integration-content h2,
+    .integration-content p,
+    .single-function p,
+    .function-heading p,
+    .function-heading h2,
+    .ultimate-feature-heading p,
+    .ultimate-feature-heading h2,
+    .pricing-table-heading .pricing-text,
+    .pricing-table-heading h2,
+    .client-area-content p,
+    .client-area-content h2,
+    .client-area-content .client-text,
+    .client-area-content .client-area-descriptions,
+    .faq-heading p {
+        width: 100%;
+    }
+
+
+    .feature-img {
+        margin-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .jackpot-top {
+        flex-direction: column;
+    }
+
+    .jackpot-top::after {
+        content: none;
+    }
+
+    .jackpot-top h2 {
+        margin-bottom: 2rem;
+    }
+
+    .jackpots-features {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .jackpot p {
+        margin-bottom: 3rem;
+    }
+
+    .integration-area {
+        flex-direction: column;
+    }
+
+    .integration-content {
+        margin-top: 3rem;
+    }
+
+    .integration-img {
+        margin-right: 0rem;
+    }
+
+    .functions {
+        grid-template-columns: 1fr;
+    }
+
+    .ultimate-feature-content {
+        text-align: center;
+    }
+
+
+    .ultimate-feature-section {
+        background: none;
+    }
+
+    .ultimate-feature-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ultimate-function-img {
+        display: block;
+    }
+
+    .table {
+        padding-bottom: 3rem;
+    }
+
+    .table-body {
+        flex-direction: column;
+    }
+
+    .table {
+        margin: 2rem auto;
+    }
+
+    .client-area {
+        grid-template-columns: 1fr;
+    }
+
+    .download-area {
+        flex-direction: column;
+    }
+
+    .download-img img {
+        width: 100%;
+        padding-top: 6rem;
+        margin-bottom: -10rem;
+    }
+}
+
+@media all and (max-width:767px) {
+    .header-section {
+        background-size: 375%;
+    }
+
+    .header-banner {
+        padding-top: 7rem;
+    }
+
+    .banner-area {
+        flex-direction: column;
+    }
+
+    .banner-img {
+        margin-top: 5rem;
+    }
+
+    .download-img img {
+        margin-bottom: -9rem;
+    }
+
+    .download-content img {
+        margin-top: 2rem;
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+    }
+
+    .menu ul li {
+        margin: 1rem 0;
+    }
+}
+
+@media all and (max-width:575px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .banner-content h1 {
+        font-size: 4.3rem;
+    }
+
+    .banner-content h1 {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width:450px) {
+
+    .menu-icon i {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .header-top {
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-icon i {
+        font-size: 6rem;
+        margin-left: 0;
+        color: var(--color2);
+    }
+
+    .top-btn {
+        margin: 1rem;
+    }
+
+    .choice-app {
+        width: 275px;
+    }
+
+    .banner-content p {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        width: 100%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .buttons a {
+        margin: 1rem;
+    }
+
+    .single-feature {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .single-feature .icon {
+        margin-right: 0rem;
+    }
+
+    .jackpots-descriptions p {
+        font-size: 1.5rem;
+    }
+
+    .single-function p {
+        font-size: 1.5rem;
+    }
+
+    .pricing-table-heading h2 {
+        font-size: 3rem;
+    }
+
+    .pricing-table-btn {
+        width: 245px;
+    }
+
+    .table {
+        width: 100%;
+    }
+
+    .ceo-contact {
+        flex-direction: column;
+    }
+
+    .arrows .bx-right-arrow-alt,
+    .arrows .bx-left-arrow-alt {
+        font-size: 1.5rem;
+    }
+
+    .faq-heading h2 {
+        font-size: 3rem;
+    }
+
+    .download-content h2 {
+        font-size: 3rem;
+    }
+
+    .download-img img {
+        margin-bottom: -7rem;
+    }
+
+    .faq-content ul li h5,
+    .faq-content-text {
+        font-size: 1.4rem;
+    }
+
+
+}
